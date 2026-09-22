@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Siddharth B | Week 1 Assignments</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #f5f7fb;
+            color: #1f2937;
+            min-height: 100vh;
+            padding: 40px 20px;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+        header h1 {
+            font-size: 2.8rem;
+            margin-bottom: 12px;
+        }
+
+        header p {
+            color: #6b7280;
+            font-size: 1.1rem;
+        }
+
+        .projects {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 24px;
+        }
+
+        .project-card {
+            background: #ffffff;
+            padding: 30px 24px;
+            border-radius: 16px;
+            text-align: center;
+            text-decoration: none;
+            color: #1f2937;
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .project-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 14px 35px rgba(0, 0, 0, 0.12);
+        }
+
+        .project-number {
+            display: inline-block;
+            margin-bottom: 18px;
+            padding: 8px 14px;
+            border-radius: 20px;
+            background: #eef2ff;
+            font-size: 0.9rem;
+            font-weight: bold;
+        }
+
+        .project-card h2 {
+            margin-bottom: 12px;
+            font-size: 1.4rem;
+        }
+
+        .project-card p {
+            color: #6b7280;
+            line-height: 1.6;
+            margin-bottom: 22px;
+        }
+
+        .open-project {
+            display: inline-block;
+            padding: 10px 18px;
+            border-radius: 8px;
+            background: #1f2937;
+            color: white;
+            font-size: 0.9rem;
+            font-weight: bold;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 50px;
+            color: #6b7280;
+            font-size: 0.9rem;
+        }
+
+        @media (max-width: 768px) {
+            .projects {
+                grid-template-columns: 1fr;
+            }
+
+            header h1 {
+                font-size: 2.2rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <main class="container">
+
+        <header>
+            <h1>Siddharth B</h1>
+
+            <p>
+                WeIntern Web Development Internship — Week 1 Assignments
+            </p>
+        </header>
+
+        <section class="projects">
+
+            <a href="portfolio-website/" class="project-card">
+
+                <span class="project-number">
+                    Task 1
+                </span>
+
+                <h2>Portfolio Website</h2>
+
+                <p>
+                    A professional personal portfolio website built using
+                    HTML, CSS and JavaScript.
+                </p>
+
+                <span class="open-project">
+                    Open Project →
+                </span>
+
+            </a>
+
+
+            <a href="business-landing/" class="project-card">
+
+                <span class="project-number">
+                    Task 2
+                </span>
+
+                <h2>Business Landing Page</h2>
+
+                <p>
+                    A responsive technology business landing page for
+                    Nexora Technologies.
+                </p>
+
+                <span class="open-project">
+                    Open Project →
+                </span>
+
+            </a>
+
+
+            <a href="css-challenge/" class="project-card">
+
+                <span class="project-number">
+                    Task 3
+                </span>
+
+                <h2>CSS Challenge</h2>
+
+                <p>
+                    Demonstration of Flexbox, CSS Grid, responsive layouts
+                    and CSS animations.
+                </p>
+
+                <span class="open-project">
+                    Open Project →
+                </span>
+
+            </a>
+
+        </section>
+
+        <footer>
+            <p>© 2026 Siddharth B | WeIntern Week 1</p>
+        </footer>
+
+    </main>
+
+</body>
+</html>
