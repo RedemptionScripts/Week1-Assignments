@@ -439,10 +439,10 @@ The live deployment links will be added after deployment.
   Task 2 - Business Landing Page   ✅ Completed
   Task 3 - CSS Challenge           ✅ Completed
   Responsive Testing               ✅ Completed
-  Screenshots                      ⬜ To Add
+  Screenshots                      ✅ To Add
   README                           ✅ Completed
-  GitHub Upload                    ⬜ To Do
-  Live Deployment                  ⬜ To Do
+  GitHub Upload                    ✅ To Do
+  Live Deployment                   ✅ To Do
 
 ------------------------------------------------------------------------
 
